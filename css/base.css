@@ -1,0 +1,74 @@
+:root{
+    --text-color: #333;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto Condensed", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Playwrite GB S", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, black, #080633);
+    width: 100%;
+    height: 100vh;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.flex-content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{ 
+    list-style: none;
+}
+.font{
+    font-size: 1.9rem;
+}
+.html_color{
+    background: linear-gradient(to right, #a7bcde,#2e78c3);
+}
+.CSS{
+    background: linear-gradient(to right, #ffffff, #df5e13);
+}
+.js{
+    background: linear-gradient(to right, #ffffff, #FF66CC)
+}
+.jscript{
+    background: linear-gradient(to right, #006666, #339900)
+}
+.sql{
+    background: linear-gradient(to right, #3366FF, #FF3300)
+}
+.php{
+    background: linear-gradient(to right, #003333, #CC66FF)
+}
+.bootstrap{
+    background: linear-gradient(to right, #ffffff, #009900)
+}
+.mysql{
+    background: linear-gradient(to right, #993333, #FF9966)
+}
+.nodejs{
+    background: linear-gradient(to right, #ffffff, #FFFF00)
+}
+.jquery{
+    background: linear-gradient(to right,#00DD00, #550000)
+}
+.react{
+    background: linear-gradient(to right, #ffffff, #00CCFF)
+}
